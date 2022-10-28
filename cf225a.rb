@@ -1,0 +1,1 @@
+puts (4 - gets.chomp.split.map(&:to_i).tally.size) 
