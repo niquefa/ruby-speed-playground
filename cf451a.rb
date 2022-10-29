@@ -1,0 +1,1 @@
+puts gets.chomp.split.map(&:to_i).min%2 == 1 ? "Akshat" : "Malvika"
